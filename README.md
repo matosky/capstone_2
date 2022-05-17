@@ -2,7 +2,7 @@
 
 **Simple Web page consisting of Navbar and responsive form**
 
-We used bootstrap for the form and css Flexbox for the navigation bar to achieve the design of this amazing project.
+We used bootstrap for responsive form and Vanilla javascript for validation of the form and css Flexbox for the navigation bar to achieve the design of this amazing project.
 
 Thanks to side-hustle for giving us this great opportunity of doing something worth doing.
 
