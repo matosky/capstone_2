@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+    background: rgb(241, 245, 243);
+    height: 100vh;
+}
+
+.header-top{
+    background: #000;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .hamburger{
+    display: none;
+}
+
+nav .logo{
+    color: skyblue;
+    font-style: oblique;
+    display: flex;
+    font-weight: 800;
+
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li{
+    margin-left: 15px;
+}
+
+nav ul li .menuIcons{
+    display: none;
+}
+
+ .row input:focus{
+    border: 1px solid limegreen;
+}
+
+/* .password{
+    align-items: center;
+}
+ */
+
+.confirmpassword .eye{
+   display: flex;
+   align-items: center;
+   margin-left: -20px;
+}
+
+.password .eye{
+    display: flex;
+    align-items: center;
+    margin-left: -20px;
+}
+
+.fa-eye, .fa-eye-slash{
+    position: absolute;
+}
+
+.fa-eye-slash{
+    display: none;
+}
+
+.msg{
+    display: none;
+}
+
+.errorMsg{
+    display: block;
+    background: red;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.passwordmsg{
+    display: none;
+}
+
+.passwordErrorMsg{
+    display: block;
+    background: red;
+    opacity: 0.8;
+    color: #fff;
+}
+
+@media screen and (max-width:750px){
+    nav .logo{
+       z-index: 10;
+    }
+
+    nav ul{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100vh;
+        width: 50vw;
+        background: #000;
+        z-index: 4;
+    }
+
+    nav ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+nav ul li .menuIcons{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-right: 10px;
+    color: skyblue;
+}
+
+
+    nav .hamburger{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav .hamburger .fa-bars{
+       color: #fff;
+       position: absolute;
+       
+    }
+
+    nav .hamburger .fa-xmark{
+        position: absolute;
+        display: none;
+    }
+
+   
+}

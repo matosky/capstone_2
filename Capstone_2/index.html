@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/hello-i-m-nik-r22qS5ejODs-unsplash.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Home|capstone</title>
+</head>
+<body>
+   <div class="wrapper">
+       <div class="header-top py-2">
+         <div class="container">
+          <nav>
+            <div class="logo">Group_83</div>
+            <ul class="my-auto" id="menu">
+                <li><i class="fa-solid fa-house-user menuIcons"></i><a href="#" class="text-light">Home</a></li>
+                <li><i class="fa-solid fa-users menuIcons"></i><a href="#" class="text-light">About Us</a></li>
+                <li><i class="fa-solid fa-envelope menuIcons"></i><a href="#" class="text-light">Contact</a></li>
+            </ul>
+
+            <div class="hamburger">
+              <i class="fa-solid fa-bars" id="open"></i>
+              <i class="fa-solid fa-xmark" id="close"></i>
+            </div>
+           </nav>
+         </div>
+       </div>
+       <div class="container mt-5 border py-5  border-secondary">
+         <div class="row">
+           <h1 class="mb-4 text-center">Register</h1>
+           <p class="text-center  text-dark">Create your account. Its free and only takes a minute.</p>
+         </div>
+          <form id="form">
+            <div class="row mb-4">
+               <div class="form-group  col-lg-6 col-sm-12">
+                 <label for="username" >Username</label>
+                 <input type="text" id="username" class="d-block w-100 mb-2">
+               </div>
+
+               <div class="form-group col-lg-6 col-sm-12">
+                <label for="email" >Email</label>
+                <input type="text" id="email" class="d-block w-100">
+              </div>
+            </div>
+
+
+            <div class="row mb-4">
+              <div class="form-group col-lg-6 col-sm-12 ">
+                <label for="password" >Password</label>
+                <div class="password position-relative d-flex ">
+                 <input type="password" id="password" class="d-block w-100 mb-2">
+                 <div class="eye my-auto">
+                  <i class="fa-solid fa-eye "></i>
+                  <i class="fa-solid fa-eye-slash"></i>
+                 </div>
+                </div>
+              </div>
+
+              <div class="form-group col-lg-6 col-sm-12">
+               <label for="confirmpassword" >Password</label>
+               <div class="confirmpassword position-relative d-flex ">
+                  <input type="password" id="confirmPassword" class="d-block w-100 mb-2">
+                  <div class="eye my-auto">
+                    <i class="fa-solid fa-eye" id="openEye"></i>
+                    <i class="fa-solid fa-eye-slash" id="closeEye"></i>
+                  </div>
+               </div>
+             </div>
+           </div>
+
+
+           <div class="row mb-4">
+            <div class="form-group col-lg-6 col-sm-12 ">
+              <label for="phone" >Phone</label>
+              <input type="number" id="number" class="d-block w-100 mb-2">
+            </div>
+
+            <div class="form-group col-lg-6 col-sm-12 mb-1">
+              <label for="gender" >Gender</label>
+              <select name="" id="gender" class="d-block">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+         </div>
+         <div class="row">
+            <div class="msg" id="errorMsg">
+              <P>Please Fill All Fields!</P>
+            </div>
+            <div class="passwordmsg" id="passworderrorMsg">
+              <P>Passwords Don't match!</P>
+            </div>
+         </div>
+         <button type="submit" id="btn" class="bg-primary border-0  py-1 text-light d-block w-100">Register Now</button>
+        </form>
+       </div>
+   </div> 
+
+<script src="main.js"></script>   
+</body>
+</html>
