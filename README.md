@@ -1,10 +1,6 @@
 **SH- CAPSTONE PROJECT_2
 
-It was a wonderful exprience for me personally as the team lead and the entire team member, because it was a eye opener to the amazing things we could do with just HTML and CSS in web development.
-
-we were not off challenges when undergoing the project but the power of team work made it a lot easier to over them.
-
-Though we had issues with getting to know ourselves as a team easier, we are glad we could still come up with something.
+**Simple Web page consisting of Navbar and responsive form**
 
 We used bootstrap for the form and css Flexbox for the navigation bar to achieve the design of this amazing project.
 
